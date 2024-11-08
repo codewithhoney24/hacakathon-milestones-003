@@ -55,17 +55,26 @@ body {
     display: flex;
     align-items: flex-start;
     width: 80%;
-  
+  border-left:20px solid #815903;
+
+
+
+
+
+
+
     margin: 0 auto;
-  
+
     background: linear-gradient(
       to right,
       rgb(129, 89, 3) 0%,
       rgb(221, 189, 9) 50%,
       rgb(6, 245, 213) 100%
     );
+
     padding: 40px;
     border-radius: 10px;
+  
   }
   
   .fieldset {
@@ -130,7 +139,7 @@ body {
     padding:20px;
     
     
-    font-size: 24px;
+    font-size: 2px;
     font-weight: bold;
     color: white;
     border-radius: 5px;
@@ -166,10 +175,11 @@ body {
   
   /* Image Styling */
   .img-pic {
+    padding: 20px;
     width: 150px;
     height: 180px;
     border-radius: 50%;
-    overflow: hidden;
+  
     border: 5px solid rgb(248, 207, 3);
     box-shadow: 0 0 16px rgba(4, 252, 252, 0.982);
   
@@ -311,7 +321,7 @@ body {
     font-family: "Trebuchet MS", sans-serif;
     color: rgb(28, 250, 250);
     font-weight: 900;
-    font-size: larger;
+    font-size:medium;
     text-decoration: none;
   }
   
@@ -349,7 +359,7 @@ max-width: 90% ;
     font-weight: 900;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     
-  border: 10px solid rgb(28, 195, 156);
+  border: 10px solid  rgb(6, 245, 213) 100%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(147, 244, 239, 0.982);
     transition: background-color 0.3s ease;
