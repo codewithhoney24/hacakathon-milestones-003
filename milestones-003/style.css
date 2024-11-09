@@ -40,7 +40,7 @@ body {
   
   h1 {
     font-size: var(h1-font-size);
-    margin-top: 2em;
+    margin-top: 2.5em;
   }
   h2 {
     font-size: 1.75em;
@@ -55,14 +55,8 @@ body {
     display: flex;
     align-items: flex-start;
     width: 80%;
-  border-left:20px solid #815903;
-
-
-
-
-
-
-
+    
+  
     margin: 0 auto;
 
     background: linear-gradient(
@@ -78,7 +72,7 @@ body {
   }
   
   .fieldset {
-    
+    margin-top: 20%;
     font-size: 30px;
     font-weight: 900;
     color: white;
@@ -99,7 +93,7 @@ body {
     
   }
   .fieldset1 {
-    margin-top: 50px;
+    margin-top: 19%;
     font-size: 30px;
     font-weight: 900;
     color: white;
@@ -107,21 +101,38 @@ body {
     border: 2px solid rgb(248, 207, 3);
     box-shadow: 0 0 14px rgba(4, 252, 252, 0.982);
     padding: 5px;
+    margin-bottom: 60px;
   }
+
+  
+.inputgender{
+padding-top: 30px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid rgb(248, 207, 3);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(147, 244, 239, 0.982);
+}
+
+
   
   .inputRightInfo {
     font-size: large;
-  width: 100%;
+  width: 80%;
     padding: 5px;
   max-width: 200px;
     border-radius: 5px;
     border: 2px solid rgb(248, 207, 3);
     box-shadow: 0 0 14px rgba(4, 252, 252, 0.982);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    
   }
   
-  /* Left Section */
-  .left-section {
+  /* right Section */
+  .right-section {
+    
     width: 30%;
     border-radius: 15px;
     padding: 30px;
@@ -150,8 +161,8 @@ body {
 
 
   .Certificate{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 30%;
     font-size: 24px;
     font-weight: bold;
@@ -160,10 +171,23 @@ body {
     border: 2px solid rgb(248, 207, 3);
     box-shadow: 0 0 14px rgba(4, 252, 252, 0.982);
   }
+
+
+
+  .Certificates {
+    height: 150px;
+    border-radius: 5px;
+    border: 2px solid rgb(248, 207, 3);
+    box-shadow: 0 0 14px rgba(4, 252, 252, 0.982);
+    list-style-type: none;
+    padding: 0;
+    
+  }
   .profile-Picture,
   .Career,
-  .objective,
-  .Certificates {
+  .objective
+  {
+    
     margin-top: 25%;
     font-size: 24px;
     font-weight: bold;
@@ -179,7 +203,7 @@ body {
     width: 150px;
     height: 180px;
     border-radius: 50%;
-  
+  object-fit: cover;
     border: 5px solid rgb(248, 207, 3);
     box-shadow: 0 0 16px rgba(4, 252, 252, 0.982);
   
@@ -209,6 +233,7 @@ body {
   
   .skis,
   .pss {
+    font-size: x-large;
     margin-top: 40px;
     color: white;
     padding: 10px;
@@ -274,9 +299,9 @@ body {
     color: #0bf3d8;
   }
   
-  /* Right Section */
-  .right-section {
-    height: 97.5%;
+  /* left Section */
+  .left-section {
+    height: 98%;
     flex: 1;
     padding: 30px;
     border-radius: 15px;
@@ -286,17 +311,17 @@ body {
     box-shadow: 0 0 14px rgba(4, 252, 252, 0.982);
   }
   
-  .right-section,
+  .left-section,
   legend,
   #hobbies {
     font-size: xx-large;
     text-align: center;
   }
   
-  /* Right Section Text Elements */
-  .right-section p,
-  .right-section ul {
-    margin: 20px;
+  /* left Section Text Elements */
+  .left-section p,
+  .left-section ul {
+    margin: 60px;
     font-size: 20px;
     font-weight: 700;
     border: 1px solid rgb(248, 207, 3);
@@ -345,23 +370,46 @@ body {
   }
   
   button:hover {
-    background-color: #21b6b1;
+    background-color: #7f9c9b;
   }
   
+  .fieldsetbtn{
+  
+    height: 130px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(248, 207, 3);
+    box-shadow: 0 0 14px rgba(4, 252, 252, 0.982);
+    padding: 5px;
+
+  }
+
+
   .generate {
-padding-right: 8px;
+  
+padding-right: 10px;
 box-sizing: border-box;
 max-width: 90% ;
+transition: var(--heading-color) 0.3s ease;
+&:hover{
+  color: black;
+};
   
-    padding-left: 8px;
-    margin: 10px auto;
-    font-size: 1.5rem;;
+
+    padding-left: 10px;
+    margin: 20px  auto ;
+    font-size: 0.95rem;;
     font-weight: 900;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
-    
-  border: 10px solid  rgb(6, 245, 213) 100%;
+    word-wrap:break-word;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(147, 244, 239, 0.982);
+    border: 2px solid rgb(248, 207, 3);
+    box-shadow: 0 0 14px rgba(4, 252, 252, 0.982);
+
     transition: background-color 0.3s ease;
     &:hover {
       background-color: #36cfae;
@@ -376,47 +424,55 @@ max-width: 90% ;
 /* Responsive Layout */
 @media (max-width: 1232px) {
   .generate {
-    max-width: 95%; /* Reduce width slightly for mid-sized screens */
-    font-size: 1rem; /* Slightly adjust font size */
-    margin: 15px auto; /* Increase margin for spacing */
+    max-width: 80%; 
+    font-size: 1rem; 
+    margin: 15px auto; 
+    
   }
   h1{
-    font-size: 2rem; /* Increase font size for smaller screens */
+    font-size: 2rem; 
+  
   }
   h2{
-    font-size: 1.50rem; /* Increase font size for smaller screens */
+    font-size: 1.50rem; 
   }
 }
 
 /* Adjustments for screens between 926px and 774px */
 @media (max-width: 926px) and (min-width: 774px) {
   .generate {
-    max-width: 90%; /* Ensure it fits within the container */
-    font-size: 0.75rem; /* Further reduce font size */
-    padding-left: 12px; /* Add padding to the left */
-    padding-right: 12px; /* Add padding to the right */
+    max-width: 90%; 
+    font-size: 0.75rem; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+  }
+  h1{
+    font-size: 1.25rem;
+  
   }
 }
+
+
 
 /* Adjustments for screens between 770px and 774px */
 @media (max-width: 774px) and (min-width: 770px) {
   .generate {
-    max-width: 100%; /* Ensure full-width for screens this small */
-    font-size: 0.625rem; /* Very small font for readability */
-    padding-left: 10px; /* Padding to ensure readability */
-    padding-right: 10px; /* Padding on both sides */
-    margin: 5px auto; /* Adjust margin for tighter screens */
+    max-width: 100%; 
+    font-size: 0.625rem; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    margin: 5px auto; 
   }
 }
 
 /* Adjustments for screens smaller than 770px */
 @media (max-width: 770px) {
   .generate {
-    max-width: 100%; /* Full width for very small screens */
-    font-size: 0.5rem; /* Extremely small font size for very small devices */
-    padding-left: 8px; /* Minimal padding */
-    padding-right: 8px; /* Minimal padding */
-    margin: 5px auto; /* Ensure it doesn’t overflow */
+    max-width: 100%; 
+    font-size: 0.5rem; 
+    padding-left: 8px; 
+    padding-right: 8px; 
+    margin: 5px auto; 
   }
 }
 
@@ -432,9 +488,9 @@ max-width: 90% ;
 @media (max-width: 975px) and (min-width: 770px) {
   .generate {
     max-width: 55%; /* Further reduce width for medium screens */
-    font-size: 0.625rem; /* Adjust font size */
-    padding-left: 10px; /* Ensure some padding */
-    padding-right: 10px; /* Ensure some padding */
+    font-size: 0.625rem; 
+    padding-left: 10px; 
+    padding-right: 10px; 
   }
 }
 
@@ -446,11 +502,11 @@ max-width: 90% ;
 
 @media (max-width: 1200px) {
   .resume-container {
-    width: 90%;
+    width: 80%;
     padding: 20px;
   }
 
-  .left-section, .right-section {
+  .left-section, .left-section {
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -477,7 +533,7 @@ max-width: 90% ;
 
 
 
-  .left-section, .right-section {
+  .left-section, .left-section {
     width: 100%;
     padding: 15px;
     margin: 10px 0;
@@ -514,7 +570,7 @@ max-width: 90% ;
     padding: 10px;
   }
 
-  .left-section, .right-section {
+  .right-section, .left-section {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -551,15 +607,17 @@ max-width: 90% ;
     padding: 5px;
   }
 }
+ 
 
 @media (max-width: 320px) {
   .resume-container {
+    display: flex;
     flex-direction: column;
     width: 100%;
     padding: 8px;
   }
 
-  .left-section, .right-section {
+  .right-section, .left-section {
     width: 100%;
     padding: 8px;
     margin: 5px 0;
@@ -567,7 +625,6 @@ max-width: 90% ;
 
   .profilePic {
     max-width: 75%;
-    
     padding: 8px;
   }
 
@@ -577,17 +634,27 @@ max-width: 90% ;
   }
 
   .inputRightInfo {
-    max-width: 120px; /* Further reduce max width for very small screens */
-    font-size: small; /* Reduce font size */
+    max-width: 100%; /* Adjusted for better fit on small screens */
+    font-size: small;
   }
 
-  .fieldset, .fieldset1 {
-    font-size: 14px;
+  /* Fieldset adjustments for very small screens */
+  .fieldset, .fieldset1, .Certificates,.objective  {
+    font-size: 1.20rem; /* Reduced font size for small screens */
     padding: 4px;
+    border: 1px solid #ccc; /* Adjust border size for clarity */
   }
 
+  /* Section Heading Adjustments */
+  .fieldset1 legend,
+  .Certificates legend {
+    font-size: 1.2rem;
+    font-weight: bold; /* Maintain visibility with reduced size */
+  }
+
+  /* Font size adjustments for headers */
   h1 {
-    font-size: 1.25rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -595,20 +662,21 @@ max-width: 90% ;
     font-size: 1rem;
   }
 
+  /* Skills Section Adjustments */
   #skills .skill {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     padding: 4px;
   }
 
-  .right-section p,
-  .right-section ul {
+  /* Left Section Paragraph and List Adjustments */
+  .left-section p,
+  .left-section ul {
     font-size: 12px;
     padding: 5px;
   }
 
+  /* Hobbies Section Adjustment */
   #hobbies {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
-
-
